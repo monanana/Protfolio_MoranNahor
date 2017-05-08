@@ -1,0 +1,200 @@
+body {
+    direction: rtl;
+    background-image: url('../images/Large_0338274.jpg');
+}
+/*הגדרות עמוד כלליות*/
+#container {
+    width: 700px;
+    margin: 20px auto;
+    
+}
+h1{
+    text-align:center;
+
+}
+h2 {
+    text-align: center;
+    font-family: Calibri;
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+}
+h3{
+ text-align: center;
+    font-family: Calibri;
+    font-size: large;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: mediumpurple;
+}
+section {
+    font-family: Calibri;
+    background-image: url('../images/arthouse-denim-pattern-faux-jeans-effect-fabric-striped-childrens-wallpaper-668603-p3033-6509_image.jpg');
+    padding: 20px;
+    height: 1000px;
+    width: 700px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 0px 0px 0px;
+     text-shadow: 2px 2px #ededed;
+   
+}
+/*הגדרות לתפריט הניווט*/
+nav.tabs ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+    nav.tabs ul li {
+        display: inline-block;
+    }
+
+        nav.tabs ul li a {
+            color: white;
+            text-decoration: none;
+            font-family: Calibri;
+            display: block;
+            width: 171px;
+            height: 30px;
+            text-align: center;
+            padding-top: 10px;
+            background-image: url('../images/Large_DL-835.jpg');
+            -moz-border-radius-topleft: 20px;
+            -moz-border-radius-topright: 20px;
+            -moz-border-radius-bottomright: 0px;
+            -moz-border-radius-bottomleft: 0px;
+            -webkit-border-radius: 20px 20px 0px 0px;
+            border-radius: 20px 20px 0px 0px;
+             text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+
+            nav.tabs ul li a.selected {
+                background-image: url('../images/jeans-fabric-winter-light-blue.jpg');
+            }
+
+            nav.tabs ul li a:hover {
+                
+                background-image: url('../images/nZ1d7xw.jpg');
+            }
+       
+            nav.tabs ul li a.selected:hover {
+                
+                background-image: url('../images/jeans-fabric-winter-light-blue.jpg');
+            }
+
+            nav.tabs ul li a:active {
+                background-image: url('../images/url.jpg');
+            }
+
+/*עמוד הבית*/
+#homepage {
+    text-align: center;
+    font-family: Calibri;
+    background-image: url('../images/Large_0377201.jpg');
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    height: 300px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+}
+
+span{
+    font-family:Calibri;
+    text-align:right;
+    font-size:40pt;
+}
+/*עמוד תקשורת חזותית*/
+
+#tikshoret {
+    font-family: Calibri;
+    height: 1000px;
+    width: 700px;
+}
+
+#sirton {
+}
+
+#tmunatik {
+    width: 510px;
+    height: 360px;
+    background-image: url('../images/tikshoret1.jpg');
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+    #tmunatik:hover {
+        width: 510px;
+        height: 360px;
+        background-image: url('../images/tikshoret2.jpg');
+        background-repeat: no-repeat;
+    }
+    /*עמוד ארגון ויצוג ידע*/
+#irgunve {
+    font-family: Calibri;
+    height: 1000px;
+    width: 700px;
+}
+audio{
+    width: 510px;
+    background-repeat:no-repeat;
+}
+
+#irgun {
+    width: 510px;
+    height: 560px;
+    background-image: url('../images/irgun1.jpg');
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+    #irgun:hover {
+        width: 510px;
+        height: 560px;
+        background-image: url('../images/irgun2.jpg');
+        background-repeat: no-repeat;
+    }
+    /*עמוד פוטושופ*/
+
+#photoshop {
+    width: 510px;
+    height: 560px;
+    background-image: url('../images/photoshop1.jpg');
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+#photoshop:hover {
+    width: 510px;
+    height: 560px;
+    background-image: url('../images/photoshop2.jpg');
+    background-repeat: no-repeat;
+}
